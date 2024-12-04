@@ -1,0 +1,8 @@
+1. Inicio
+2. Mostrar “Ingrese una velocidad en km/h y lo convertiremos a m/s”
+3. Pedir velocidad 
+4. Guardar velocidad
+5. Dividir la velocidad por 18 y multiplicarlo por 5
+6. Guardar velocidad 
+7. Mostrar velocidad
+8. Fin

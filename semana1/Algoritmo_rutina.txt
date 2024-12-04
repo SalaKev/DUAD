@@ -1,0 +1,67 @@
+Algoritmo para describir mi rutina diaria
+
+1. Inicio
+2. Me despierto
+3. Me levanto
+4. Arreglo la cama
+5. Si tengo ganas de ir al baño
+. Ir al baño a hacer mis necesidades
+6. Sino, saludar a mi madre 
+7. Si el dasayuno esta servido
+. Desayunar
+8. Sino, servirme el desayuno
+. Ir por una taza
+. Servirme el cafe
+. Abrir la refri
+. Sacar la leche y abrirla
+. Echar la leche en el cafe
+. Batir
+. Ir por un plato
+. Servirme lo que haya de comer
+9. Desayunar
+10. Mientras haya cafe en la taza o comina en el plato
+. Seguir desayunando
+11. Llevar los trastes sucios a la pila
+12. Abrir el grifo
+13. Mojar la esponja y llenarla de jabon
+14. Lavar los trastes 
+15. Mientras los trastes esten sucion
+. Seguir Lavando
+16. Dejar secando los platos
+17. Ir a mi computadora de trabajo
+18. Encenderla
+19. Logearme 
+20. Trabajar por 8 horas
+21. Ir a entrenar
+22. Si hace un dia soleado sin peligro a que llueva.
+. Ir en autobus
+23. Sino, si esta lloviendo o se ve propenso a llover
+. Ir en automovil
+24. Entrenar
+25. Si vine en autobus
+. Irme devuelta a casa caminando
+26. Sino, vine en automovil
+. Irme devuelta a casa en automovil
+27. Llegar a casa
+28. Bañarme
+29. Si la cena esta servida
+. Cenar
+30. Sino, servirme la cena
+. Ir por un vaso
+. Servirme agua
+. Ir por un plato
+. Servirme lo que haya de comer
+31. Cenar
+32. Mientras haya agua en el vaso o comina en el plato
+. Seguir Cenando
+33. Llevar los trastes sucios a la pila
+34. Abrir el grifo
+35. Mojar la esponja y llenarla de jabon
+36. Lavar los trastes 
+37. Mientras los trastes esten sucion
+. Seguir Lavando
+38. Dejar secando los platos
+39. Descansar
+40. Orar
+41. Dormir
+42. Fin

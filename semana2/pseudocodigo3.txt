@@ -1,0 +1,12 @@
+1. Inicio
+2. Definir `numero` 
+3. `suma` = 0
+4. `contador` = 1
+5. Mostrar “Ingrese cualquier numero y te mostraremos el resultado de la suma de todos los numeros, desde el 1 hasta el numero que ingreses”
+6. Pedir `numero` 
+7. Mientras que (`contador` `<=` `numero`) repetir:
+          `suma` = `contador` + `suma`
+          `contador` = `contador` + 1
+8. FinMientras
+9. Mostrar “La suma de todos los numeros es” `suma`
+10. Fin
