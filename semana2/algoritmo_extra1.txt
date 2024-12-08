@@ -1,0 +1,16 @@
+1. Inicio
+2. Mostrar “Ingrese dos valores numericos y los acomodaremos de menor a mayor”
+3. Pedir primer valor
+4. Guardar primer valor
+5. Pedir segundo valor
+6. Guardar segundo valor
+7. Si el primer valor es mayor que el segundo valor entonces:
+    primer valor = segundo valor 
+    segundo valor = primer valor
+    Mostrar “A” primer valor
+    Mostrar “B” segundo valor 
+8. Sino
+    Mostrar “A” primer valor
+    Mostrar “B” segundo valor
+9. FinSi   
+10. Fin

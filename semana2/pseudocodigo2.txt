@@ -1,0 +1,14 @@
+1. Inicio
+2. Definir `tiempo_en_segundos` 
+3. Definir `segundos_faltantes`
+4. Definir `segundos_demas`
+5. Mostrar “Ingrese el tiempo en segundos para saber si es mayor a 10 minutos, si no lo es, te mostraremos por cuantos segundos te hizo falta para al menos llegar a los 10 minutos”
+6. Pedir `tiempo_en_segundos`
+7. Si (`tiempo_en_segundos` > 600) entonces:
+     `segundos_demas` = `tiempo_en_segundos` - 600
+     Mostrar “!!El tiempo ingresado supero los 10 minutos por ” `segundos_demas` ”segundos!!”
+8. Sino:
+     `segundos_faltantes` = 600 - `tiempo_en_segundos` 
+     Mostrar “Para llegar a 10 minutos te hicieron falta los siguientes segundos” `segundos_faltantes`
+9. FinSi
+10. Fin

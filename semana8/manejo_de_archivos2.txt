@@ -1,0 +1,17 @@
+Método	Descripción
+close()	Cierra un archivo despues de haber sido abierto.
+detach()	Crea una nueva vista de un tensor, declarándolo independiente de gradients y, por lo tanto, excluyéndolo del seguimiento de operaciones posteriores.
+fileno()	Devuelve el descriptor de archivo de la secuencia, como un número.
+flush()	Obliga a que el búfer interno escriba de inmediato su contenido en el archivo real.
+isatty()	Indica si un descriptor de archivo está abierto y conectado a un dispositivo de tipo tty devuelve True si ese es el caso.
+read()	Lee y retorna el contenido del file.
+readable()	Retorna si el archivo es leible True o no False
+readline()	Lee y retorna una linea del archivo
+readlines()	Lee el contenido del archivo y lo retorna en líneas.
+seek()	Nos permite cambiar la posición actual del archivo.
+seekable()	Retorna si nos permite True o no False mover el archivo de posición.
+tell()	Retorna la posición actual del archivo.
+truncate()	Nos permite cambiar el tamaño de un archivo a una cantidad determinada de bytes. Si no se especifica el tamaño, se utilizará la posición actual.
+writable()	Retorna si nos permite True o no False escribir en un archivo
+write()	Nos permite escribir un string en un archivo
+writelines()	Nos permite escribir una lista de strings en líneas, para separarlas se utiliza el carácter de salto de línea \n

@@ -1,0 +1,13 @@
+1. Inicio
+2. Definir `precio_de_producto` 
+3. Definir `descuento`
+4. Mostrar “Por favor ingrese el precio del producto para calcular su descuento”
+5. Pedir `precio_de_producto` 
+6. Si (`precio_de_producto` < 100) entonces:
+     `descuento` = `precio_de_producto` * 0.98
+7. Sino: 
+     `descuento` = `precio_de_producto` * 0.90
+8. FinSi
+9. Mostrar “El precio con el descuento es de ”
+10. Mostrar `descuento`
+11. Fin

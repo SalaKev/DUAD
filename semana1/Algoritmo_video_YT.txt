@@ -1,0 +1,29 @@
+Algoritmo para ver un Video en Youtube
+
+1. Inicio
+2. Si tengo Computadora 
+ . Revisar la conexion a internet
+ . Si tengo internet entonces 
+          . Abrir el browser
+          . Ir a Youtube
+          . Iniciar Sesion 
+          . Buscar el video
+  . Sino
+          . Intentar conectar la Computadora a internet por medio de cable LAN o Wifi
+3. Sino, si tengo Celular entonces
+  . Revisar la conexion a internet
+  . Si tengo internet entonces
+          . Abrir Youtube app
+          . Iniciar Sesion
+          . Buscar el video
+  .Sino
+          . Intentar conectar el Celular a internet por medio de Wifi 
+4. Sino,
+. Comprar uno de los devices mencionados anteriormente y con conexion a internet
+5. Ajustar la resolucion del video
+6. Si quiero ver subtitulos entonces
+     . Activar el feature de los subtitulos
+7. Sino
+     . No activar el feature de los subtitulos
+8. Ver Video
+9. Fin
