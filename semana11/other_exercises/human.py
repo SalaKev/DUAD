@@ -1,73 +1,87 @@
 class Head:
-    def __init__(self):
+    def describe(self):
         print('head')
-        pass
 
 
 class Torso:
     def __init__(self, head, right_arm, left_arm, right_leg, left_leg):
         self.head = head
         self.right_arm = right_arm
+        #self.right_hand = right_hand
         self.left_arm = left_arm
+        #self.left_hand = left_hand
         self.right_leg = right_leg
+        #self.right_feet = right_feet
         self.left_leg = left_leg
+        #self.left_feet = left_feet
+
+
+    def describe(self):
         print('torso')
-        pass
+
+class Arm:
+    def __init__(self, side):
+        self.side = side
+        self.hand = Hand(side)
 
 
-class LeftArm:
-    def __init__(self, left_hand):
-        self.left_hand = left_hand
-        print('LArm')
-        pass
-
-
-class RightArm:
-    def __init__(self, right_hand):
-        self.right_hand = right_hand
-        print('RArm')
-        pass
-
+    def describe(self):
+        print(f'{self.side} arm')
+        self.hand.describe()
 
 class Hand:
-    def __init__(self):
-        print('hand')
-        pass
+    def __init__(self, side):
+        self.side = side
 
 
-class LeftLeg:
-    def __init__(self, left_feet):
-        self.left_feet = left_feet
-        print('LLeg')
-        pass
+    def describe(self):
+        print(f'{self.side} hand')
 
 
-class RightLeg:
-    def __init__(self, right_feet):
-        self.right_feet = right_feet
-        print('RLeg')
-        pass
+
+class Leg:
+    def __init__(self, side):
+        self.side = side
+        self.feet = Feet(side)
+
+
+    def describe(self):
+        print(f'{self.side} leg')
+        self.feet.describe()
 
 
 class Feet:
-    def __init__(self):
-        print('feet')
-        pass
+    def __init__(self, side):
+        self.side = side
+
+
+    def describe(self):
+        print(f'{self.side} foot')
+
 
 
 class Human:
     def __init__(self):
-        self.right_feet = Feet()
-        self.left_feet = Feet()
-        self.right_hand = Hand()
-        self.left_hand = Hand()
-        self.right_leg = RightLeg(self.right_feet)
-        self.left_leg = LeftLeg(self.left_feet)
-        self.right_arm = RightArm(self.right_hand)
-        self.left_arm = LeftArm(self.left_hand)
+        self.right_feet = Feet('right')
+        self.left_feet = Feet('left')
+        self.right_hand = Hand('right')
+        self.left_hand = Hand('left')
+        self.right_leg = Leg('right')
+        self.left_leg = Leg('left')
+        self.right_arm = Arm('right')
+        self.left_arm = Arm('left')
         self.head = Head()
         self.torso = Torso(self.head, self.right_arm, self.left_arm, self.right_leg, self.left_leg)
-        
-        pass
-    
+
+
+    def describe(self):
+        self.head.describe()
+        self.torso.describe()
+        self.right_arm.describe()
+        self.left_arm.describe()
+        self.right_leg.describe()
+        self.left_leg.describe()
+
+
 human = Human()
+human.describe()
