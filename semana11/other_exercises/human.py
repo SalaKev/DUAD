@@ -7,13 +7,9 @@ class Torso:
     def __init__(self, head, right_arm, left_arm, right_leg, left_leg):
         self.head = head
         self.right_arm = right_arm
-        #self.right_hand = right_hand
         self.left_arm = left_arm
-        #self.left_hand = left_hand
         self.right_leg = right_leg
-        #self.right_feet = right_feet
         self.left_leg = left_leg
-        #self.left_feet = left_feet
 
 
     def describe(self):
